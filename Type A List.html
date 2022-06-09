@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <Title>Todo Redo</Title>
+  </head>
+  <body>
+    <input id="todo-title" type="text" placeholder="Input Your Todo"></input>
+    <button onclick="addTodo()">Add To List</button>
+    <div id="todo-List"></div>
+
+    <script>
+      const todos = [];
+        render();     
+      
+      function addTodo() {
+        const textbox = document.getElementById('todo-title');
+        const title = textbox.value;
+        todos.push(title);
+
+        render();
+      }
+
+      function render() {
+        // reset our list
+        document.getElementById('todo-List').innerHTML = '';
+
+        todos.forEach(function (TodoTitle) {
+          const element = document.createElement('div');
+          element.innerText = TodoTitle;
+          const todoList = document.getElementById('todo-List');
+          todoList.appendChild(element);
+        });
+      }
+    </script>
+  </body>
+</html>
