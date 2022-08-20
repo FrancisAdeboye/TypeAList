@@ -1,0 +1,187 @@
+@media screen and (min-width: 761px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  section {
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    background-image: url("40-402760_light-color-background-for-website.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 760px;
+    height: 740px;
+    text-align: center;
+  }
+  .container h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  #todo-title {
+    width: 280px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 18px;
+    font-weight: 600;
+    outline: none;
+    border-style: none;
+    margin-right: 10px;
+  }
+  #date-picker {
+    width: 180px;
+    padding: 9px;
+    border-radius: 5px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: grey;
+    outline: none;
+    border-style: none;
+    margin-right: 10px;
+  }
+  button {
+    width: 130px;
+    padding: 7px;
+    border-radius: 5px;
+    font-family: 'Nanum Myeongjo', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    border-style: solid;
+    border-color: white;
+    background-color: grey;
+    color: white;
+  }
+  button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: grey;
+    border-color: grey;
+  }
+  h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #todo-list {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+  }
+  footer {
+    text-align: center;
+  }
+  footer a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+
+
+@media screen and (max-width: 760px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  section {
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    background-image: url("40-402760_light-color-background-for-website.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 375px;
+    height: 740px;
+    text-align: center;
+  }
+  .container h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+  }
+  #todo-title {
+    width: 280px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 18px;
+    font-weight: 600;
+    outline: none;
+    border-style: none;
+    margin-right: 10px;
+  }
+  #date-picker {
+    width: 180px;
+    padding: 9px;
+    border-radius: 5px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: grey;
+    outline: none;
+    border-style: none;
+    margin-right: 10px;
+  }
+  button {
+    width: 130px;
+    padding: 7px;
+    border-radius: 5px;
+    font-family: 'Nanum Myeongjo', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    border-style: solid;
+    border-color: white;
+    background-color: grey;
+    color: white;
+  }
+  button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: grey;
+    border-color: grey;
+  }
+  h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  #todo-list {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+  }
+  footer {
+    text-align: center;
+  }
+  footer a {
+    text-decoration: none;
+    color: black;
+  }
+}
